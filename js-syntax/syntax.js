@@ -26,8 +26,8 @@ let z = x + y;
 // In a programing language, varialbes are use to store data values
 // javascript uses the keywoards, var, let and const to declare variables
 // an equal sing is used to assign values to variables
-let x;
-x = 4;
+let a;
+a = 4;
 
 
 // JavaScript Operators
@@ -35,10 +35,30 @@ x = 4;
 ( 4 + 5 ) * 3;
 
 // javascript uses an assignment operator ( = ) to assing value to variables
-let x, y;
-x = 5;
-y = 6;
+let b, c;
+b = 5;
+c = 6;
 
 
 
 // JavaScript Expressions
+// an expression in a combination of values, variables, operators, which computes to value.
+// the computation is called an evaluation
+// for example
+5 * 10;
+// Expression can also contain variable values;
+5 * 10;
+// the value can be of various types, such as number and strings;
+// for example
+console.log("Jone" + " " + "Deo")
+
+
+// JavaScript keywords
+// javascript keywords are used to identify action to be performed
+// the let keywords tells the browser to create a varialbes:
+
+let firstName, lastName;
+firstName = 'Nayem'
+lastName = 'Iqbal'
+const fullName = firstName + ' ' + lastName;
+console.log(fullName)
