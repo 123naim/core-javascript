@@ -21,3 +21,24 @@ let z = x + y;
 // 1. Numbers are written with or without decimals
 // 2. String are text, written within double and single qoutes
 "double qoutes" & 'single qoutes'
+
+// JavaScript variables
+// In a programing language, varialbes are use to store data values
+// javascript uses the keywoards, var, let and const to declare variables
+// an equal sing is used to assign values to variables
+let x;
+x = 4;
+
+
+// JavaScript Operators
+// javascript uses arithmetic operators ( + - * / ) to compute values
+( 4 + 5 ) * 3;
+
+// javascript uses an assignment operator ( = ) to assing value to variables
+let x, y;
+x = 5;
+y = 6;
+
+
+
+// JavaScript Expressions
