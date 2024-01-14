@@ -62,3 +62,15 @@ firstName = 'Nayem'
 lastName = 'Iqbal'
 const fullName = firstName + ' ' + lastName;
 console.log(fullName)
+
+
+// JavaScript Case Sensetive
+/*
+    1. All javaScript identifiers are case sensitive
+    2. The variables lastName and lastname are two different variables
+*/ 
+// For example
+let numOne, numone;
+numOne = 3;
+numone = 2;
+
