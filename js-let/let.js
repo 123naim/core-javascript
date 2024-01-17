@@ -20,3 +20,6 @@
     let x = 5;
 };
 // x connot be use here
+
+
+// Global Scope
