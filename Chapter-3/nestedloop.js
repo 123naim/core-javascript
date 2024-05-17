@@ -13,6 +13,7 @@ for (let i = 1; i <= input; i++){
     for (let j = 1; j <= i; j++){
         result += j + ' ';
     }
+    console.log(result)
 }
 
 
@@ -22,12 +23,12 @@ for (let i = 1; i <= input; i++){
 // * * * * * 
 // * * * * * 
 // * * * * * 
-let starNumber = 10;
+let starNumber = 5;
 
-for (let i = 1; i <= starNumber; i++){
-    let result = ' ';
-    for(let j = 1; j <= starNumber; j++){
-        result +='* ';
-    }
-    console.log(result)
-}
+// for (let i = 1; i <= starNumber; i++){
+//     let result = ' ';
+//     for(let j = 1; j <= starNumber; j++){
+//         result +='* ';
+//     }
+//     console.log(result)
+// }
