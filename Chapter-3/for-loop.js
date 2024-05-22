@@ -41,4 +41,12 @@ for (let index = 0; i <= 10; i++){
 const myName = 'nayem';
 for(let i = 0; i<= myName.length; i++){
     console.log(myName[i])
+};
+
+const arr2 = [1, 2, 3, 4, 5, 6, 7, 8];
+let add = 0;
+for(let i = 0; i<= arr2.length; i++){
+    add += arr2[i];
 }
+
+console.log(add)
