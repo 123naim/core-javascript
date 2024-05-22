@@ -29,3 +29,16 @@ for (let i = 1; i <= 10; i++){
     sum += i;
 }
 console.log('result is = ' + sum)
+
+
+
+// forLoop declearation
+for (let index = 0; i <= 10; i++){
+
+}
+
+
+const myName = 'nayem';
+for(let i = 0; i<= myName.length; i++){
+    console.log(myName[i])
+}
