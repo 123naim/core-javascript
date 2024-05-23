@@ -4,30 +4,30 @@ const date = new Date();
 const today = date.getDay();
 console.log(today)
 
-if(today === 0) {
+if (today === 0) {
     console.log('Today is Sunday')
-}else if(today === 1){
+} else if (today === 1) {
     console.log('Today is Munday')
-}else if(today === 2){
+} else if (today === 2) {
     console.log('Today is Tuesday')
-}else if(today === 3){
+} else if (today === 3) {
     console.log('Today is Wednesday')
-}else if(today === 4){
+} else if (today === 4) {
     console.log('Today is Thursday')
-}else if(today === 5){
+} else if (today === 5) {
     console.log('Today is Friday')
-}else if(today === 6){
+} else if (today === 6) {
     console.log('Today is Saturday')
 }
 
 
-switch(today){
+switch (today) {
     case 0:
         console.log('Today is Sunday')
         break;
     case 1:
         console.log('Today is Munday')
-        break;    
+        break;
 }
 
 // switch (today) {
@@ -36,21 +36,21 @@ switch(today){
 //         break;
 //     case 1:
 //         console.log('Today is Monday')
-//         break;     
+//         break;
 //     case 2:
 //         console.log('Today is Tuesday')
 //         break;
 //     case 3:
 //         console.log('Today is Wednesday')
-//         break;     
+//         break;
 //     case 4:
 //         console.log('Today is Thursday')
 //         break;
 //     case 5:
 //         console.log('Today is Friday')
-//         break;     
+//         break;
 //     case 6:
 //         console.log('Today is Saturday')
-//         break;   
-//     default: console.log('Not a valid Number')      
+//         break;
+//     default: console.log('Not a valid Number')
 // }
