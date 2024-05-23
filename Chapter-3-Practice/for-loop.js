@@ -4,11 +4,12 @@
  * 2. forEach use kore sum ber korte hbe
  * 3. reduce use kore sum ber korte hbe
  * 4. for loop use kor max number find korte hbe
+ * 5. for loop use kor min number find korte hbe
  */
 
 
 // 1. for loop use kore sum ber korte hbe
-const arr = [2, 4, 5, 10, 15];
+const arr = [2, 4, 100, 5, 10, 15];
 let sum = 0;
 for(let i = 0; i < arr.length; i++){
     sum += arr[i];
@@ -17,4 +18,36 @@ console.log(sum);
 
 // 2. forEach use kore sum ber korte hbe
 let sum2 = 0;
-arr.forEach(num => sum += num)
+arr.forEach(num => sum2 += num)
+console.log(sum2);
+
+
+// 3. Reduce use kore sum ber korte hbe
+const sum3 = arr.reduce((acc, value) => {
+    // console.log(acc, value)
+    return acc + value
+})
+console.log(sum3)
+
+
+
+// for use kore max number ber korte hbe
+
+let max = arr[0]
+for(let i = 0; i<arr.length; i++){
+    if(arr[i] > max){
+        max = arr[i]
+    }
+}
+console.log(max)
+
+
+// for loop use kor min number find korte hbe
+let min = arr[0];
+for(let i = 0; i < arr.length; i++){
+    if(arr[i] < min){
+        min = arr[i]
+    }
+}
+console.log(min)
+
