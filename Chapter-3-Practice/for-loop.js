@@ -128,3 +128,32 @@ console.log(arr)
 
 // console.log("Prime Numbers:", primes);
 
+
+
+// উদাহরণ ৪: ফিবোনাচ্চি সিরিজ তৈরি করা
+// let n = 10;
+// let fib = [0, 1];
+
+// for(let i = 2; i < n; i++){
+//     fib[i] = fib[i - 1] + fib[i - 2];
+// }
+
+// console.log("Fibonacci Series:", fib);
+
+
+// উদাহরণ ৫: অ্যারের ডুপ্লিকেট এলিমেন্ট খুঁজে বের করা
+// let arr = [1, 2, 3, 4, 2, 5, 6, 4, 7];
+// let duplicates = [];
+
+// for(let i = 0; i < arr.length; i++){
+//     for(let j = i + 1; j < arr.length; j++){
+//         if(arr[i] == arr[j] && !duplicates.includes(arr[i])){
+//             duplicates.push(arr[i]);
+//         }
+//     }
+// }
+
+// console.log("Duplicate Elements:", duplicates);
+
+
+
