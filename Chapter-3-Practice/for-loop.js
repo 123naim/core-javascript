@@ -108,3 +108,23 @@ console.log(arr)
 // console.log("Max Value:", max);
 // console.log("Min Value:", min);
 
+
+// উদাহরণ ৩: অ্যারে থেকে প্রাইম সংখ্যা বের করা
+// let arr = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let primes = [];
+
+// for(let i = 0; i < arr.length; i++){
+//     let isPrime = true;
+//     for(let j = 2; j <= Math.sqrt(arr[i]); j++){
+//         if(arr[i] % j == 0){
+//             isPrime = false;
+//             break;
+//         }
+//     }
+//     if(isPrime && arr[i] > 1){
+//         primes.push(arr[i]);
+//     }
+// }
+
+// console.log("Prime Numbers:", primes);
+
