@@ -5,13 +5,14 @@
  * 3. reduce use kore sum ber korte hbe
  * 4. for loop use kor max number find korte hbe
  * 5. for loop use kor min number find korte hbe
+ * 6. for loop use kor choto theke boro porjonto sajate hbe
  */
 
 
 // 1. for loop use kore sum ber korte hbe
 const arr = [2, 4, 100, 5, 10, 15];
 let sum = 0;
-for(let i = 0; i < arr.length; i++){
+for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
 }
 console.log(sum);
@@ -31,23 +32,51 @@ console.log(sum3)
 
 
 
-// for use kore max number ber korte hbe
+// 4. for use kore max number ber korte hbe
 
 let max = arr[0]
-for(let i = 0; i<arr.length; i++){
-    if(arr[i] > max){
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
         max = arr[i]
     }
 }
 console.log(max)
 
 
-// for loop use kor min number find korte hbe
+// 5. for loop use kor min number find korte hbe
 let min = arr[0];
-for(let i = 0; i < arr.length; i++){
-    if(arr[i] < min){
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < min) {
         min = arr[i]
     }
 }
 console.log(min)
 
+
+
+// 6. for loop use kore choto theke boro porjonto sajate hbe
+for (let i = 1; i< arr.length; i++){
+    for (let j = 0; j < i; j++){
+        if(arr[i] > arr[j]){
+            let x = arr[i];
+            arr[i] = arr[j];
+            arr[j] = x;
+        }
+    }
+}
+
+console.log(arr)
+
+
+
+// 7. for loop use kore boro theke choto porjonto sajate hbe
+for(let i = 1; i< arr.length; i++){
+    for(let j = 0; j< i; j++){
+        if(arr[i] < arr[j]){
+            let x = arr[i];
+            arr[i] = arr[j];
+            arr[j] = x;
+        }
+    }
+}
+console.log(arr)
