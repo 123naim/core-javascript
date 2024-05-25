@@ -1,8 +1,10 @@
 const arr = [1, 2, 3, 4, 5, 6, 7];
 // Not a perfect way
+// let newArr = [];
 // for(let i = arr.length; i >= 0; i--){
-//    console.log(arr[i])
+//    newArr.push(arr[i])
 // }
+// console.log(newArr)
 
 for (let i = 0; i < (arr.length / 2); i++){
     let temp = arr[i];
