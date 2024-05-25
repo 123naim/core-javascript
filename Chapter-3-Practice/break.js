@@ -1,4 +1,4 @@
-for (let i = 0; i < 11; i++){
+for (let i = 1; i < 10; i++){
     if(i % 5 === 0){
         break;
     }else{
