@@ -16,6 +16,7 @@ if(obj1.a === obj2.a && obj1.b === obj2.b){
 
 // console.log(obj1)
 console.log(JSON.stringify(obj1) === JSON.stringify(obj2))
+// console.log(JSON.stringify(obj1))
 
 
-// console.log(obj1 === obj2)
+console.log(obj1 === obj2)

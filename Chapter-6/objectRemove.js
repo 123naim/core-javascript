@@ -15,5 +15,5 @@ delete point.a
 console.log(point)
 
 
-// const del = delete point.a
-// console.log(del)
+const del = delete point.a
+console.log(del)
