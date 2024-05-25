@@ -1,5 +1,5 @@
 // Chapter Five
-// Strig is JavaScript
+// String is JavaScript
 
 
 
@@ -42,5 +42,3 @@ console.log("5" + 3);
 console.log("5" - 3);
 console.log(typeof("x" === "y"));
 
-
-[]
