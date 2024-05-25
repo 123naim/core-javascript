@@ -14,6 +14,7 @@ arr[arr.length] = 6;
 arr[arr.length] = 6;
 arr[arr.length] = 6;
 arr[arr.length] = 6;
+arr[arr.length] = 7;
 arr[2] = 22;
 
 console.log(arr)
