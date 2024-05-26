@@ -6,8 +6,8 @@ function add(a, b) {
 
 // 1. A Function can be Stored in Variable
 const sum = add;
-console.log(sum(4, 5))
-console.log(typeof sum)
+// console.log(sum(4, 5))
+// console.log(typeof sum)
 
 // 2. A Function can be Stored in an Array
 const arr = [];
